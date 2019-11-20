@@ -1,0 +1,607 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.7.RELEASE)
+
+2019-10-28 21:28:36.149  INFO 59056 --- [           main] c.e.EndworldhungerApplication            : Starting EndworldhungerApplication v0.0.1-SNAPSHOT on Jamess-MacBook-Pro.local with PID 59056 (/Users/jamjamjames98/Developer/EndWorldHunger/deploy.jar started by jamjamjames98 in /Users/jamjamjames98/Developer/EndWorldHunger)
+2019-10-28 21:28:36.152  INFO 59056 --- [           main] c.e.EndworldhungerApplication            : No active profile set, falling back to default profiles: default
+2019-10-28 21:28:36.930  INFO 59056 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-28 21:28:36.955  INFO 59056 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+2019-10-28 21:28:37.384  INFO 59056 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2e2249a8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-28 21:28:37.773  INFO 59056 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2019-10-28 21:28:37.811  INFO 59056 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-28 21:28:37.811  INFO 59056 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-10-28 21:28:38.111  INFO 59056 --- [           main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-10-28 21:28:38.353  INFO 59056 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-28 21:28:38.353  INFO 59056 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2151 ms
+2019-10-28 21:28:38.714  INFO 59056 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-10-28 21:28:38.716  INFO 59056 --- [           main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-10-28 21:28:38.947  INFO 59056 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-28 21:28:39.019 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BooleanType@66f66866
+2019-10-28 21:28:39.019 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BooleanType@66f66866
+2019-10-28 21:28:39.019 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@66f66866
+2019-10-28 21:28:39.020 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@4d666b41
+2019-10-28 21:28:39.020 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration true_false -> org.hibernate.type.TrueFalseType@30f4b1a6
+2019-10-28 21:28:39.022 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration yes_no -> org.hibernate.type.YesNoType@3e1162e7
+2019-10-28 21:28:39.023 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.ByteType@38600b
+2019-10-28 21:28:39.024 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.ByteType@38600b
+2019-10-28 21:28:39.024 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@38600b
+2019-10-28 21:28:39.026 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration character -> org.hibernate.type.CharacterType@1ea9f009
+2019-10-28 21:28:39.026 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration char -> org.hibernate.type.CharacterType@1ea9f009
+2019-10-28 21:28:39.026 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@1ea9f009
+2019-10-28 21:28:39.028 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.ShortType@4c7a078
+2019-10-28 21:28:39.029 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.ShortType@4c7a078
+2019-10-28 21:28:39.029 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Short -> org.hibernate.type.ShortType@4c7a078
+2019-10-28 21:28:39.031 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration integer -> org.hibernate.type.IntegerType@76f10035
+2019-10-28 21:28:39.031 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration int -> org.hibernate.type.IntegerType@76f10035
+2019-10-28 21:28:39.031 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@76f10035
+2019-10-28 21:28:39.033 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.LongType@15b986cd
+2019-10-28 21:28:39.033 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.LongType@15b986cd
+2019-10-28 21:28:39.033 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Long -> org.hibernate.type.LongType@15b986cd
+2019-10-28 21:28:39.035 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.FloatType@6b530eb9
+2019-10-28 21:28:39.035 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.FloatType@6b530eb9
+2019-10-28 21:28:39.035 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Float -> org.hibernate.type.FloatType@6b530eb9
+2019-10-28 21:28:39.036 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.DoubleType@17f460bb
+2019-10-28 21:28:39.037 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.DoubleType@17f460bb
+2019-10-28 21:28:39.037 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@17f460bb
+2019-10-28 21:28:39.038 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@18ca3c62
+2019-10-28 21:28:39.038 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@18ca3c62
+2019-10-28 21:28:39.040 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_integer -> org.hibernate.type.BigIntegerType@6aa648b9
+2019-10-28 21:28:39.041 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@6aa648b9
+2019-10-28 21:28:39.043 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration string -> org.hibernate.type.StringType@88a8218
+2019-10-28 21:28:39.043 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.String -> org.hibernate.type.StringType@88a8218
+2019-10-28 21:28:39.044 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration nstring -> org.hibernate.type.StringNVarcharType@4163f1cd
+2019-10-28 21:28:39.045 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@3e681bc
+2019-10-28 21:28:39.048 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration url -> org.hibernate.type.UrlType@5f574cc2
+2019-10-28 21:28:39.048 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.net.URL -> org.hibernate.type.UrlType@5f574cc2
+2019-10-28 21:28:39.049 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration Duration -> org.hibernate.type.DurationType@2d83c5a5
+2019-10-28 21:28:39.049 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Duration -> org.hibernate.type.DurationType@2d83c5a5
+2019-10-28 21:28:39.051 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration Instant -> org.hibernate.type.InstantType@60222fd8
+2019-10-28 21:28:39.051 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Instant -> org.hibernate.type.InstantType@60222fd8
+2019-10-28 21:28:39.053 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@710b30ef
+2019-10-28 21:28:39.053 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@710b30ef
+2019-10-28 21:28:39.055 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDate -> org.hibernate.type.LocalDateType@7cf7aee
+2019-10-28 21:28:39.055 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@7cf7aee
+2019-10-28 21:28:39.056 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@18151a14
+2019-10-28 21:28:39.057 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@18151a14
+2019-10-28 21:28:39.059 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@3c1e23ff
+2019-10-28 21:28:39.059 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@3c1e23ff
+2019-10-28 21:28:39.061 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@1bf0f6f6
+2019-10-28 21:28:39.061 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@1bf0f6f6
+2019-10-28 21:28:39.064 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@3359c978
+2019-10-28 21:28:39.065 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@3359c978
+2019-10-28 21:28:39.067 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration date -> org.hibernate.type.DateType@584f5497
+2019-10-28 21:28:39.067 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Date -> org.hibernate.type.DateType@584f5497
+2019-10-28 21:28:39.069 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration time -> org.hibernate.type.TimeType@4fbb001b
+2019-10-28 21:28:39.069 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Time -> org.hibernate.type.TimeType@4fbb001b
+2019-10-28 21:28:39.070 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration timestamp -> org.hibernate.type.TimestampType@5eefa415
+2019-10-28 21:28:39.070 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@5eefa415
+2019-10-28 21:28:39.071 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Date -> org.hibernate.type.TimestampType@5eefa415
+2019-10-28 21:28:39.073 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@78d50a3c
+2019-10-28 21:28:39.075 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar -> org.hibernate.type.CalendarType@2f19f2aa
+2019-10-28 21:28:39.075 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@2f19f2aa
+2019-10-28 21:28:39.077 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@2f19f2aa
+2019-10-28 21:28:39.078 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@79c5636f
+2019-10-28 21:28:39.080 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration locale -> org.hibernate.type.LocaleType@27f3b6d6
+2019-10-28 21:28:39.081 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@27f3b6d6
+2019-10-28 21:28:39.083 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration currency -> org.hibernate.type.CurrencyType@676f0a60
+2019-10-28 21:28:39.083 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@676f0a60
+2019-10-28 21:28:39.084 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration timezone -> org.hibernate.type.TimeZoneType@4a951911
+2019-10-28 21:28:39.084 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@4a951911
+2019-10-28 21:28:39.085 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration class -> org.hibernate.type.ClassType@5e63cad
+2019-10-28 21:28:39.085 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Class -> org.hibernate.type.ClassType@5e63cad
+2019-10-28 21:28:39.086 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@14a54ef6
+2019-10-28 21:28:39.086 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@14a54ef6
+2019-10-28 21:28:39.087 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@867ba60
+2019-10-28 21:28:39.089 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration binary -> org.hibernate.type.BinaryType@6034e75d
+2019-10-28 21:28:39.089 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte[] -> org.hibernate.type.BinaryType@6034e75d
+2019-10-28 21:28:39.089 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration [B -> org.hibernate.type.BinaryType@6034e75d
+2019-10-28 21:28:39.091 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@456abb66
+2019-10-28 21:28:39.091 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@456abb66
+2019-10-28 21:28:39.092 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@456abb66
+2019-10-28 21:28:39.093 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration row_version -> org.hibernate.type.RowVersionType@219f4597
+2019-10-28 21:28:39.094 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration image -> org.hibernate.type.ImageType@2e16b08d
+2019-10-28 21:28:39.095 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration characters -> org.hibernate.type.CharArrayType@42561fba
+2019-10-28 21:28:39.095 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration char[] -> org.hibernate.type.CharArrayType@42561fba
+2019-10-28 21:28:39.096 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration [C -> org.hibernate.type.CharArrayType@42561fba
+2019-10-28 21:28:39.097 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@408613cc
+2019-10-28 21:28:39.097 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@408613cc
+2019-10-28 21:28:39.097 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@408613cc
+2019-10-28 21:28:39.098 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration text -> org.hibernate.type.TextType@11ce2e22
+2019-10-28 21:28:39.099 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration ntext -> org.hibernate.type.NTextType@13cda7c9
+2019-10-28 21:28:39.100 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration blob -> org.hibernate.type.BlobType@91c4a3f
+2019-10-28 21:28:39.101 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@91c4a3f
+2019-10-28 21:28:39.101 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@150d80c4
+2019-10-28 21:28:39.103 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration clob -> org.hibernate.type.ClobType@1d269ed7
+2019-10-28 21:28:39.103 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@1d269ed7
+2019-10-28 21:28:39.106 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration nclob -> org.hibernate.type.NClobType@2d691f3d
+2019-10-28 21:28:39.106 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@2d691f3d
+2019-10-28 21:28:39.107 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@1e7f2e0f
+2019-10-28 21:28:39.108 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@78d39a69
+2019-10-28 21:28:39.110 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration serializable -> org.hibernate.type.SerializableType@15f193b8
+2019-10-28 21:28:39.118 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration object -> org.hibernate.type.ObjectType@4aa3d36
+2019-10-28 21:28:39.118 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@4aa3d36
+2019-10-28 21:28:39.119 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@347bdeef
+2019-10-28 21:28:39.119 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@2aa27288
+2019-10-28 21:28:39.120 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@7f34a967
+2019-10-28 21:28:39.120 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@77e80a5e
+2019-10-28 21:28:39.120 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@1d8e2eea
+2019-10-28 21:28:39.120 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@240139e1
+2019-10-28 21:28:39.120 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@7ea4d397
+2019-10-28 21:28:39.120 DEBUG 59056 --- [           main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@49298ce7
+2019-10-28 21:28:39.670  INFO 59056 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-28 21:28:39.757 DEBUG 59056 --- [           main] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@203c20cf] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@2a1debfa]
+2019-10-28 21:28:40.221 DEBUG 59056 --- [           main] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@203c20cf] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@86733]
+Hibernate: alter table FoodItem add constraint FKmirifafi0sjnnm2q4cnpaes39 foreign key (providerId) references Provider (id)
+Hibernate: alter table FoodOrder add constraint FKggd8wkfwys8x6u17g8ddlwg4t foreign key (foodItem) references FoodItem (id)
+Hibernate: alter table FoodOrder add constraint FKjc2csm2xw49payeu86lmnif2j foreign key (providerId) references Provider (id)
+Hibernate: alter table FoodOrder add constraint FKcyoexs9vjghvsewgtwwlxbc3t foreign key (userId) references User (id)
+Hibernate: alter table ProviderBan add constraint FK925if78rmiowjgpusi6uv263w foreign key (providerId) references Provider (id)
+Hibernate: alter table ProviderReport add constraint FKppekdujlpdfwk37s1tfjuwe0d foreign key (providerId) references Provider (id)
+Hibernate: alter table ProviderReview add constraint FK3g1yh9crwtscc6kj5rxhffx2t foreign key (authorId) references Provider (id)
+Hibernate: alter table ProviderReview add constraint FKt1og3su7l9k08wmynt9njhw6r foreign key (ownerId) references User (id)
+Hibernate: alter table UserBan add constraint FKiw0660py4pwh610lcmsrqtbdm foreign key (UserId) references User (id)
+Hibernate: alter table UserLogs add constraint FKbs0grk44j56at7xaswdky0p0l foreign key (providerId) references Provider (id)
+Hibernate: alter table UserLogs add constraint FKfffhn2uhjebpy0xbx7tf2i8dg foreign key (userId) references User (id)
+Hibernate: alter table UserReport add constraint FK3rebwdjs6xr8uq7bqd9kk4xlt foreign key (userId) references User (id)
+Hibernate: alter table UserReview add constraint FK2ugsemoe1idvhu787jy9as70p foreign key (authorId) references User (id)
+Hibernate: alter table UserReview add constraint FKcr94s0cdw8x87tuxnc9nt5sy4 foreign key (ownerId) references Provider (id)
+2019-10-28 21:28:41.064 TRACE 59056 --- [           main] o.h.type.spi.TypeConfiguration$Scope     : Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@86733] for TypeConfiguration
+2019-10-28 21:28:41.611  INFO 59056 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-28 21:28:41.886  INFO 59056 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-10-28 21:28:42.041  INFO 59056 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2019-10-28 21:28:42.046  INFO 59056 --- [           main] c.e.EndworldhungerApplication            : Started EndworldhungerApplication in 6.654 seconds (JVM running for 7.139)
+2019-10-28 21:28:46.659  INFO 59056 --- [nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-28 21:28:46.660  INFO 59056 --- [nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-28 21:28:46.671  INFO 59056 --- [nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2019-10-28 21:28:46.793 DEBUG 59056 --- [nio-9090-exec-1] o.h.stat.internal.StatisticsInitiator    : Statistics initialized [enabled=false]
+2019-10-28 21:28:46.836  INFO 59056 --- [nio-9090-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+Hibernate: select user0_.id as id1_6_, user0_.consumerType as consumer2_6_, user0_.dailyLimit as dailyLim3_6_, user0_.email as email4_6_, user0_.name as name5_6_, user0_.password as password6_6_, user0_.phoneNumber as phoneNum7_6_, user0_.rating as rating8_6_, user0_.status as status9_6_, user0_.username as usernam10_6_ from User user0_
+2019-10-28 21:28:46.923 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_6_] : [INTEGER]) - [1]
+2019-10-28 21:28:46.929 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([consumer2_6_] : [VARCHAR]) - [Individual]
+2019-10-28 21:28:46.929 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([dailyLim3_6_] : [INTEGER]) - [2]
+2019-10-28 21:28:46.929 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_6_] : [VARCHAR]) - [bob@hotmail.com]
+2019-10-28 21:28:46.929 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_6_] : [VARCHAR]) - [bob34325]
+2019-10-28 21:28:46.929 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password6_6_] : [VARCHAR]) - [12345678]
+2019-10-28 21:28:46.929 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phoneNum7_6_] : [VARCHAR]) - [0400123456]
+2019-10-28 21:28:46.930 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([rating8_6_] : [INTEGER]) - [-1]
+2019-10-28 21:28:46.930 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([status9_6_] : [VARCHAR]) - [Active]
+2019-10-28 21:28:46.930 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_6_] : [VARCHAR]) - [testuser]
+2019-10-28 21:28:46.931 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_6_] : [INTEGER]) - [2]
+2019-10-28 21:28:46.932 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([consumer2_6_] : [VARCHAR]) - [Individual]
+2019-10-28 21:28:46.932 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([dailyLim3_6_] : [INTEGER]) - [4]
+2019-10-28 21:28:46.932 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_6_] : [VARCHAR]) - [jacob@hotmail.com]
+2019-10-28 21:28:46.932 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_6_] : [VARCHAR]) - [jacob5325325]
+2019-10-28 21:28:46.932 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password6_6_] : [VARCHAR]) - [45435435543]
+2019-10-28 21:28:46.932 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phoneNum7_6_] : [VARCHAR]) - [0400123456]
+2019-10-28 21:28:46.932 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([rating8_6_] : [INTEGER]) - [-1]
+2019-10-28 21:28:46.932 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([status9_6_] : [VARCHAR]) - [Active]
+2019-10-28 21:28:46.932 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_6_] : [VARCHAR]) - [testuser]
+2019-10-28 21:28:46.932 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_6_] : [INTEGER]) - [3]
+2019-10-28 21:28:46.933 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([consumer2_6_] : [VARCHAR]) - [Charity]
+2019-10-28 21:28:46.933 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([dailyLim3_6_] : [INTEGER]) - [50]
+2019-10-28 21:28:46.933 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_6_] : [VARCHAR]) - [alex@hotmail.com]
+2019-10-28 21:28:46.933 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_6_] : [VARCHAR]) - [akex54333]
+2019-10-28 21:28:46.933 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password6_6_] : [VARCHAR]) - [5435343545]
+2019-10-28 21:28:46.933 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phoneNum7_6_] : [VARCHAR]) - [0400123456]
+2019-10-28 21:28:46.933 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([rating8_6_] : [INTEGER]) - [-1]
+2019-10-28 21:28:46.933 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([status9_6_] : [VARCHAR]) - [Active]
+2019-10-28 21:28:46.933 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_6_] : [VARCHAR]) - [testuser]
+2019-10-28 21:28:46.934 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_6_] : [INTEGER]) - [4]
+2019-10-28 21:28:46.934 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([consumer2_6_] : [VARCHAR]) - [Organisation]
+2019-10-28 21:28:46.934 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([dailyLim3_6_] : [INTEGER]) - [50]
+2019-10-28 21:28:46.934 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_6_] : [VARCHAR]) - [james@hotmail.com]
+2019-10-28 21:28:46.934 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_6_] : [VARCHAR]) - [james222222]
+2019-10-28 21:28:46.934 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password6_6_] : [VARCHAR]) - [5435435543]
+2019-10-28 21:28:46.934 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phoneNum7_6_] : [VARCHAR]) - [0400123456]
+2019-10-28 21:28:46.934 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([rating8_6_] : [INTEGER]) - [-1]
+2019-10-28 21:28:46.934 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([status9_6_] : [VARCHAR]) - [Active]
+2019-10-28 21:28:46.934 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_6_] : [VARCHAR]) - [testuser]
+2019-10-28 21:28:46.934 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_6_] : [INTEGER]) - [5]
+2019-10-28 21:28:46.935 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([consumer2_6_] : [VARCHAR]) - [Charity]
+2019-10-28 21:28:46.935 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([dailyLim3_6_] : [INTEGER]) - [50]
+2019-10-28 21:28:46.935 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_6_] : [VARCHAR]) - [alvin@hotmail.com]
+2019-10-28 21:28:46.935 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_6_] : [VARCHAR]) - [alvin4333333]
+2019-10-28 21:28:46.935 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password6_6_] : [VARCHAR]) - [3454354355]
+2019-10-28 21:28:46.935 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phoneNum7_6_] : [VARCHAR]) - [0400123456]
+2019-10-28 21:28:46.935 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([rating8_6_] : [INTEGER]) - [-1]
+2019-10-28 21:28:46.935 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([status9_6_] : [VARCHAR]) - [Active]
+2019-10-28 21:28:46.935 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_6_] : [VARCHAR]) - [testuser]
+2019-10-28 21:28:46.936 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_6_] : [INTEGER]) - [6]
+2019-10-28 21:28:46.936 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([consumer2_6_] : [VARCHAR]) - [Charity]
+2019-10-28 21:28:46.936 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([dailyLim3_6_] : [INTEGER]) - [50]
+2019-10-28 21:28:46.936 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_6_] : [VARCHAR]) - [rona@hotmail.com]
+2019-10-28 21:28:46.936 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_6_] : [VARCHAR]) - [rona444444]
+2019-10-28 21:28:46.936 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password6_6_] : [VARCHAR]) - [324324234]
+2019-10-28 21:28:46.936 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phoneNum7_6_] : [VARCHAR]) - [0400123456]
+2019-10-28 21:28:46.936 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([rating8_6_] : [INTEGER]) - [-1]
+2019-10-28 21:28:46.936 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([status9_6_] : [VARCHAR]) - [Lock]
+2019-10-28 21:28:46.936 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_6_] : [VARCHAR]) - [testuser]
+2019-10-28 21:28:46.937 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_6_] : [INTEGER]) - [7]
+2019-10-28 21:28:46.937 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([consumer2_6_] : [VARCHAR]) - [Charity]
+2019-10-28 21:28:46.937 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([dailyLim3_6_] : [INTEGER]) - [50]
+2019-10-28 21:28:46.937 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_6_] : [VARCHAR]) - [jina@hotmail.com]
+2019-10-28 21:28:46.937 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_6_] : [VARCHAR]) - [jina555555]
+2019-10-28 21:28:46.937 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password6_6_] : [VARCHAR]) - [324234324234]
+2019-10-28 21:28:46.937 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phoneNum7_6_] : [VARCHAR]) - [0400123456]
+2019-10-28 21:28:46.937 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([rating8_6_] : [INTEGER]) - [-1]
+2019-10-28 21:28:46.937 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([status9_6_] : [VARCHAR]) - [Lock]
+2019-10-28 21:28:46.937 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_6_] : [VARCHAR]) - [testuser]
+2019-10-28 21:28:46.938 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_6_] : [INTEGER]) - [8]
+2019-10-28 21:28:46.938 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([consumer2_6_] : [VARCHAR]) - [Individual]
+2019-10-28 21:28:46.938 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([dailyLim3_6_] : [INTEGER]) - [4]
+2019-10-28 21:28:46.938 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_6_] : [VARCHAR]) - [hamesh@hotmail.com]
+2019-10-28 21:28:46.938 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_6_] : [VARCHAR]) - [hamesh33312]
+2019-10-28 21:28:46.938 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password6_6_] : [VARCHAR]) - [123324324234]
+2019-10-28 21:28:46.938 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phoneNum7_6_] : [VARCHAR]) - [0400123456]
+2019-10-28 21:28:46.938 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([rating8_6_] : [INTEGER]) - [-1]
+2019-10-28 21:28:46.938 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([status9_6_] : [VARCHAR]) - [Active]
+2019-10-28 21:28:46.938 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_6_] : [VARCHAR]) - [testuser]
+2019-10-28 21:28:46.938 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_6_] : [INTEGER]) - [9]
+2019-10-28 21:28:46.939 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([consumer2_6_] : [VARCHAR]) - [Individual]
+2019-10-28 21:28:46.939 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([dailyLim3_6_] : [INTEGER]) - [4]
+2019-10-28 21:28:46.939 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_6_] : [VARCHAR]) - [rob@hotmail.com]
+2019-10-28 21:28:46.939 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_6_] : [VARCHAR]) - [rob4342423]
+2019-10-28 21:28:46.939 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password6_6_] : [VARCHAR]) - [436436346]
+2019-10-28 21:28:46.939 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phoneNum7_6_] : [VARCHAR]) - [0400123456]
+2019-10-28 21:28:46.939 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([rating8_6_] : [INTEGER]) - [-1]
+2019-10-28 21:28:46.939 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([status9_6_] : [VARCHAR]) - [Active]
+2019-10-28 21:28:46.939 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_6_] : [VARCHAR]) - [testuser]
+2019-10-28 21:28:46.939 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_6_] : [INTEGER]) - [10]
+2019-10-28 21:28:46.940 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([consumer2_6_] : [VARCHAR]) - [Individual]
+2019-10-28 21:28:46.940 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([dailyLim3_6_] : [INTEGER]) - [4]
+2019-10-28 21:28:46.940 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_6_] : [VARCHAR]) - [jack@hotmail.com]
+2019-10-28 21:28:46.940 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_6_] : [VARCHAR]) - [jack434234234]
+2019-10-28 21:28:46.940 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password6_6_] : [VARCHAR]) - [32423663]
+2019-10-28 21:28:46.940 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phoneNum7_6_] : [VARCHAR]) - [0400123456]
+2019-10-28 21:28:46.940 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([rating8_6_] : [INTEGER]) - [-1]
+2019-10-28 21:28:46.940 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([status9_6_] : [VARCHAR]) - [Active]
+2019-10-28 21:28:46.940 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_6_] : [VARCHAR]) - [testuser]
+2019-10-28 21:28:46.940 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_6_] : [INTEGER]) - [11]
+2019-10-28 21:28:46.941 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([consumer2_6_] : [VARCHAR]) - [Organisation]
+2019-10-28 21:28:46.941 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([dailyLim3_6_] : [INTEGER]) - [50]
+2019-10-28 21:28:46.941 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_6_] : [VARCHAR]) - [natalie@hotmail.com]
+2019-10-28 21:28:46.941 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_6_] : [VARCHAR]) - [natalie434324234]
+2019-10-28 21:28:46.941 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password6_6_] : [VARCHAR]) - [6436436436]
+2019-10-28 21:28:46.941 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phoneNum7_6_] : [VARCHAR]) - [0400123456]
+2019-10-28 21:28:46.941 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([rating8_6_] : [INTEGER]) - [-1]
+2019-10-28 21:28:46.941 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([status9_6_] : [VARCHAR]) - [Active]
+2019-10-28 21:28:46.941 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_6_] : [VARCHAR]) - [testuser]
+2019-10-28 21:28:46.941 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_6_] : [INTEGER]) - [12]
+2019-10-28 21:28:46.942 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([consumer2_6_] : [VARCHAR]) - [Organisation]
+2019-10-28 21:28:46.942 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([dailyLim3_6_] : [INTEGER]) - [50]
+2019-10-28 21:28:46.942 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_6_] : [VARCHAR]) - [jimmy@hotmail.com]
+2019-10-28 21:28:46.942 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_6_] : [VARCHAR]) - [jimmy4343434]
+2019-10-28 21:28:46.942 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password6_6_] : [VARCHAR]) - [4636436436]
+2019-10-28 21:28:46.942 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phoneNum7_6_] : [VARCHAR]) - [0400123456]
+2019-10-28 21:28:46.942 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([rating8_6_] : [INTEGER]) - [-1]
+2019-10-28 21:28:46.942 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([status9_6_] : [VARCHAR]) - [Active]
+2019-10-28 21:28:46.942 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_6_] : [VARCHAR]) - [testuser]
+2019-10-28 21:28:46.942 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_6_] : [INTEGER]) - [13]
+2019-10-28 21:28:46.943 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([consumer2_6_] : [VARCHAR]) - [Organisation]
+2019-10-28 21:28:46.943 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([dailyLim3_6_] : [INTEGER]) - [50]
+2019-10-28 21:28:46.943 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_6_] : [VARCHAR]) - [chris@hotmail.com]
+2019-10-28 21:28:46.943 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_6_] : [VARCHAR]) - [chris43434343]
+2019-10-28 21:28:46.943 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password6_6_] : [VARCHAR]) - [346436436346]
+2019-10-28 21:28:46.943 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phoneNum7_6_] : [VARCHAR]) - [0400123456]
+2019-10-28 21:28:46.943 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([rating8_6_] : [INTEGER]) - [-1]
+2019-10-28 21:28:46.943 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([status9_6_] : [VARCHAR]) - [Active]
+2019-10-28 21:28:46.943 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_6_] : [VARCHAR]) - [testuser]
+2019-10-28 21:28:46.943 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_6_] : [INTEGER]) - [14]
+2019-10-28 21:28:46.944 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([consumer2_6_] : [VARCHAR]) - [Individual]
+2019-10-28 21:28:46.944 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([dailyLim3_6_] : [INTEGER]) - [4]
+2019-10-28 21:28:46.944 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_6_] : [VARCHAR]) - [Haha@gmail.com]
+2019-10-28 21:28:46.944 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_6_] : [VARCHAR]) - [Voila]
+2019-10-28 21:28:46.944 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password6_6_] : [VARCHAR]) - [null]
+2019-10-28 21:28:46.944 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phoneNum7_6_] : [VARCHAR]) - [934i02343294]
+2019-10-28 21:28:46.944 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([rating8_6_] : [INTEGER]) - [-1]
+2019-10-28 21:28:46.944 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([status9_6_] : [VARCHAR]) - [Active]
+2019-10-28 21:28:46.944 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_6_] : [VARCHAR]) - [This is a test]
+2019-10-28 21:28:46.944 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_6_] : [INTEGER]) - [15]
+2019-10-28 21:28:46.945 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([consumer2_6_] : [VARCHAR]) - [Individual]
+2019-10-28 21:28:46.945 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([dailyLim3_6_] : [INTEGER]) - [4]
+2019-10-28 21:28:46.945 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_6_] : [VARCHAR]) - [Haha@gmail.com]
+2019-10-28 21:28:46.945 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_6_] : [VARCHAR]) - [Voila]
+2019-10-28 21:28:46.945 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password6_6_] : [VARCHAR]) - [null]
+2019-10-28 21:28:46.945 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phoneNum7_6_] : [VARCHAR]) - [934i02343294]
+2019-10-28 21:28:46.945 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([rating8_6_] : [INTEGER]) - [-1]
+2019-10-28 21:28:46.945 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([status9_6_] : [VARCHAR]) - [Active]
+2019-10-28 21:28:46.945 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_6_] : [VARCHAR]) - [This is a test]
+2019-10-28 21:28:46.945 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_6_] : [INTEGER]) - [16]
+2019-10-28 21:28:46.945 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([consumer2_6_] : [VARCHAR]) - [Individual]
+2019-10-28 21:28:46.946 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([dailyLim3_6_] : [INTEGER]) - [4]
+2019-10-28 21:28:46.946 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_6_] : [VARCHAR]) - [Haha@gmail.com]
+2019-10-28 21:28:46.946 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_6_] : [VARCHAR]) - [Voila]
+2019-10-28 21:28:46.946 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password6_6_] : [VARCHAR]) - [null]
+2019-10-28 21:28:46.946 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phoneNum7_6_] : [VARCHAR]) - [934i02343294]
+2019-10-28 21:28:46.946 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([rating8_6_] : [INTEGER]) - [-1]
+2019-10-28 21:28:46.946 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([status9_6_] : [VARCHAR]) - [Active]
+2019-10-28 21:28:46.946 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_6_] : [VARCHAR]) - [This is a test]
+2019-10-28 21:28:46.946 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_6_] : [INTEGER]) - [17]
+2019-10-28 21:28:46.946 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([consumer2_6_] : [VARCHAR]) - [Individual]
+2019-10-28 21:28:46.946 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([dailyLim3_6_] : [INTEGER]) - [4]
+2019-10-28 21:28:46.946 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_6_] : [VARCHAR]) - [Haha@gmail.com]
+2019-10-28 21:28:46.946 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_6_] : [VARCHAR]) - [Voila]
+2019-10-28 21:28:46.947 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password6_6_] : [VARCHAR]) - [password]
+2019-10-28 21:28:46.947 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phoneNum7_6_] : [VARCHAR]) - [934i02343294]
+2019-10-28 21:28:46.947 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([rating8_6_] : [INTEGER]) - [-1]
+2019-10-28 21:28:46.947 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([status9_6_] : [VARCHAR]) - [Active]
+2019-10-28 21:28:46.947 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_6_] : [VARCHAR]) - [This is a test]
+2019-10-28 21:28:46.947 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_6_] : [INTEGER]) - [18]
+2019-10-28 21:28:46.947 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([consumer2_6_] : [VARCHAR]) - [Individual]
+2019-10-28 21:28:46.947 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([dailyLim3_6_] : [INTEGER]) - [4]
+2019-10-28 21:28:46.947 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_6_] : [VARCHAR]) - [Haha@gmail.com]
+2019-10-28 21:28:46.947 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_6_] : [VARCHAR]) - [Voila]
+2019-10-28 21:28:46.947 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password6_6_] : [VARCHAR]) - [password]
+2019-10-28 21:28:46.947 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phoneNum7_6_] : [VARCHAR]) - [934i02343294]
+2019-10-28 21:28:46.948 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([rating8_6_] : [INTEGER]) - [-1]
+2019-10-28 21:28:46.948 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([status9_6_] : [VARCHAR]) - [Active]
+2019-10-28 21:28:46.948 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_6_] : [VARCHAR]) - [This is a test]
+2019-10-28 21:28:46.948 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_6_] : [INTEGER]) - [19]
+2019-10-28 21:28:46.948 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([consumer2_6_] : [VARCHAR]) - [Individual]
+2019-10-28 21:28:46.948 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([dailyLim3_6_] : [INTEGER]) - [4]
+2019-10-28 21:28:46.948 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_6_] : [VARCHAR]) - [Haha@gmail.com]
+2019-10-28 21:28:46.948 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_6_] : [VARCHAR]) - [Voila]
+2019-10-28 21:28:46.948 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password6_6_] : [VARCHAR]) - [password]
+2019-10-28 21:28:46.948 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phoneNum7_6_] : [VARCHAR]) - [934i02343294]
+2019-10-28 21:28:46.948 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([rating8_6_] : [INTEGER]) - [-1]
+2019-10-28 21:28:46.948 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([status9_6_] : [VARCHAR]) - [Active]
+2019-10-28 21:28:46.948 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_6_] : [VARCHAR]) - [This is a test]
+2019-10-28 21:28:46.949 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_6_] : [INTEGER]) - [20]
+2019-10-28 21:28:46.949 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([consumer2_6_] : [VARCHAR]) - [Individual]
+2019-10-28 21:28:46.949 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([dailyLim3_6_] : [INTEGER]) - [4]
+2019-10-28 21:28:46.949 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_6_] : [VARCHAR]) - [Haha@gmail.com]
+2019-10-28 21:28:46.949 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_6_] : [VARCHAR]) - [Voila]
+2019-10-28 21:28:46.949 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password6_6_] : [VARCHAR]) - [password]
+2019-10-28 21:28:46.949 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phoneNum7_6_] : [VARCHAR]) - [934i02343294]
+2019-10-28 21:28:46.949 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([rating8_6_] : [INTEGER]) - [-1]
+2019-10-28 21:28:46.949 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([status9_6_] : [VARCHAR]) - [Active]
+2019-10-28 21:28:46.949 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_6_] : [VARCHAR]) - [This is a test]
+2019-10-28 21:28:46.949 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_6_] : [INTEGER]) - [21]
+2019-10-28 21:28:46.950 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([consumer2_6_] : [VARCHAR]) - [Individual]
+2019-10-28 21:28:46.950 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([dailyLim3_6_] : [INTEGER]) - [4]
+2019-10-28 21:28:46.950 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_6_] : [VARCHAR]) - [Haha@gmail.com]
+2019-10-28 21:28:46.950 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_6_] : [VARCHAR]) - [Voila]
+2019-10-28 21:28:46.950 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password6_6_] : [VARCHAR]) - [password]
+2019-10-28 21:28:46.950 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phoneNum7_6_] : [VARCHAR]) - [934i02343294]
+2019-10-28 21:28:46.950 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([rating8_6_] : [INTEGER]) - [-1]
+2019-10-28 21:28:46.950 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([status9_6_] : [VARCHAR]) - [Active]
+2019-10-28 21:28:46.950 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_6_] : [VARCHAR]) - [This is a test]
+2019-10-28 21:28:46.950 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_6_] : [INTEGER]) - [22]
+2019-10-28 21:28:46.950 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([consumer2_6_] : [VARCHAR]) - [Individual]
+2019-10-28 21:28:46.950 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([dailyLim3_6_] : [INTEGER]) - [4]
+2019-10-28 21:28:46.951 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_6_] : [VARCHAR]) - [Haha@gmail.com]
+2019-10-28 21:28:46.951 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_6_] : [VARCHAR]) - [Voila]
+2019-10-28 21:28:46.951 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password6_6_] : [VARCHAR]) - [password]
+2019-10-28 21:28:46.951 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phoneNum7_6_] : [VARCHAR]) - [934i02343294]
+2019-10-28 21:28:46.951 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([rating8_6_] : [INTEGER]) - [-1]
+2019-10-28 21:28:46.951 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([status9_6_] : [VARCHAR]) - [Active]
+2019-10-28 21:28:46.951 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_6_] : [VARCHAR]) - [This is a test]
+2019-10-28 21:28:46.951 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_6_] : [INTEGER]) - [23]
+2019-10-28 21:28:46.951 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([consumer2_6_] : [VARCHAR]) - [Individual]
+2019-10-28 21:28:46.951 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([dailyLim3_6_] : [INTEGER]) - [4]
+2019-10-28 21:28:46.951 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_6_] : [VARCHAR]) - [Haha@gmail.com]
+2019-10-28 21:28:46.951 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_6_] : [VARCHAR]) - [Voila]
+2019-10-28 21:28:46.952 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password6_6_] : [VARCHAR]) - [password]
+2019-10-28 21:28:46.952 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phoneNum7_6_] : [VARCHAR]) - [934i02343294]
+2019-10-28 21:28:46.952 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([rating8_6_] : [INTEGER]) - [-1]
+2019-10-28 21:28:46.952 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([status9_6_] : [VARCHAR]) - [Active]
+2019-10-28 21:28:46.952 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_6_] : [VARCHAR]) - [This is a test]
+2019-10-28 21:28:46.952 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_6_] : [INTEGER]) - [24]
+2019-10-28 21:28:46.952 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([consumer2_6_] : [VARCHAR]) - [Individual]
+2019-10-28 21:28:46.952 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([dailyLim3_6_] : [INTEGER]) - [4]
+2019-10-28 21:28:46.952 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_6_] : [VARCHAR]) - [Haha@gmail.com]
+2019-10-28 21:28:46.952 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_6_] : [VARCHAR]) - [Voila]
+2019-10-28 21:28:46.952 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password6_6_] : [VARCHAR]) - [password]
+2019-10-28 21:28:46.952 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phoneNum7_6_] : [VARCHAR]) - [934i02343294]
+2019-10-28 21:28:46.952 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([rating8_6_] : [INTEGER]) - [-1]
+2019-10-28 21:28:46.952 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([status9_6_] : [VARCHAR]) - [Active]
+2019-10-28 21:28:46.953 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_6_] : [VARCHAR]) - [This is a test]
+2019-10-28 21:28:46.953 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_6_] : [INTEGER]) - [25]
+2019-10-28 21:28:46.953 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([consumer2_6_] : [VARCHAR]) - [Individual]
+2019-10-28 21:28:46.953 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([dailyLim3_6_] : [INTEGER]) - [4]
+2019-10-28 21:28:46.953 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_6_] : [VARCHAR]) - [Haha@gmail.com]
+2019-10-28 21:28:46.953 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_6_] : [VARCHAR]) - [Voila]
+2019-10-28 21:28:46.953 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password6_6_] : [VARCHAR]) - [password]
+2019-10-28 21:28:46.953 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phoneNum7_6_] : [VARCHAR]) - [934i02343294]
+2019-10-28 21:28:46.953 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([rating8_6_] : [INTEGER]) - [-1]
+2019-10-28 21:28:46.953 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([status9_6_] : [VARCHAR]) - [Active]
+2019-10-28 21:28:46.953 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_6_] : [VARCHAR]) - [This is a test]
+2019-10-28 21:28:46.954 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_6_] : [INTEGER]) - [26]
+2019-10-28 21:28:46.954 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([consumer2_6_] : [VARCHAR]) - [Individual]
+2019-10-28 21:28:46.954 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([dailyLim3_6_] : [INTEGER]) - [4]
+2019-10-28 21:28:46.954 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_6_] : [VARCHAR]) - [Haha@gmail.com]
+2019-10-28 21:28:46.954 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_6_] : [VARCHAR]) - [Voila]
+2019-10-28 21:28:46.954 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password6_6_] : [VARCHAR]) - [password]
+2019-10-28 21:28:46.954 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phoneNum7_6_] : [VARCHAR]) - [934i02343294]
+2019-10-28 21:28:46.954 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([rating8_6_] : [INTEGER]) - [-1]
+2019-10-28 21:28:46.954 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([status9_6_] : [VARCHAR]) - [Active]
+2019-10-28 21:28:46.954 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_6_] : [VARCHAR]) - [This is a test]
+2019-10-28 21:28:46.954 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_6_] : [INTEGER]) - [27]
+2019-10-28 21:28:46.954 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([consumer2_6_] : [VARCHAR]) - [Individual]
+2019-10-28 21:28:46.954 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([dailyLim3_6_] : [INTEGER]) - [4]
+2019-10-28 21:28:46.955 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_6_] : [VARCHAR]) - [Haha@gmail.com]
+2019-10-28 21:28:46.955 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_6_] : [VARCHAR]) - [Voila]
+2019-10-28 21:28:46.955 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password6_6_] : [VARCHAR]) - [password]
+2019-10-28 21:28:46.955 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phoneNum7_6_] : [VARCHAR]) - [934i02343294]
+2019-10-28 21:28:46.955 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([rating8_6_] : [INTEGER]) - [-1]
+2019-10-28 21:28:46.955 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([status9_6_] : [VARCHAR]) - [Active]
+2019-10-28 21:28:46.955 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_6_] : [VARCHAR]) - [This is a test]
+2019-10-28 21:28:46.955 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_6_] : [INTEGER]) - [28]
+2019-10-28 21:28:46.955 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([consumer2_6_] : [VARCHAR]) - [Individual]
+2019-10-28 21:28:46.955 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([dailyLim3_6_] : [INTEGER]) - [4]
+2019-10-28 21:28:46.955 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_6_] : [VARCHAR]) - [Haha@gmail.com]
+2019-10-28 21:28:46.955 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_6_] : [VARCHAR]) - [Voila]
+2019-10-28 21:28:46.955 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password6_6_] : [VARCHAR]) - [password]
+2019-10-28 21:28:46.955 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phoneNum7_6_] : [VARCHAR]) - [934i02343294]
+2019-10-28 21:28:46.956 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([rating8_6_] : [INTEGER]) - [-1]
+2019-10-28 21:28:46.956 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([status9_6_] : [VARCHAR]) - [Active]
+2019-10-28 21:28:46.956 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_6_] : [VARCHAR]) - [This is a test]
+2019-10-28 21:28:46.956 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_6_] : [INTEGER]) - [29]
+2019-10-28 21:28:46.956 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([consumer2_6_] : [VARCHAR]) - [Individual]
+2019-10-28 21:28:46.956 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([dailyLim3_6_] : [INTEGER]) - [4]
+2019-10-28 21:28:46.956 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_6_] : [VARCHAR]) - [Haha@gmail.com]
+2019-10-28 21:28:46.956 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_6_] : [VARCHAR]) - [Voila]
+2019-10-28 21:28:46.956 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password6_6_] : [VARCHAR]) - [password]
+2019-10-28 21:28:46.956 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phoneNum7_6_] : [VARCHAR]) - [934i02343294]
+2019-10-28 21:28:46.956 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([rating8_6_] : [INTEGER]) - [-1]
+2019-10-28 21:28:46.956 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([status9_6_] : [VARCHAR]) - [Active]
+2019-10-28 21:28:46.956 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_6_] : [VARCHAR]) - [This is a test]
+2019-10-28 21:28:46.957 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_6_] : [INTEGER]) - [30]
+2019-10-28 21:28:46.957 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([consumer2_6_] : [VARCHAR]) - [Individual]
+2019-10-28 21:28:46.957 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([dailyLim3_6_] : [INTEGER]) - [4]
+2019-10-28 21:28:46.957 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_6_] : [VARCHAR]) - [Haha@gmail.com]
+2019-10-28 21:28:46.957 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_6_] : [VARCHAR]) - [Voila]
+2019-10-28 21:28:46.957 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password6_6_] : [VARCHAR]) - [password]
+2019-10-28 21:28:46.957 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phoneNum7_6_] : [VARCHAR]) - [934i02343294]
+2019-10-28 21:28:46.957 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([rating8_6_] : [INTEGER]) - [-1]
+2019-10-28 21:28:46.957 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([status9_6_] : [VARCHAR]) - [Active]
+2019-10-28 21:28:46.957 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_6_] : [VARCHAR]) - [This is a test]
+2019-10-28 21:28:46.957 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_6_] : [INTEGER]) - [31]
+2019-10-28 21:28:46.957 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([consumer2_6_] : [VARCHAR]) - [Individual]
+2019-10-28 21:28:46.957 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([dailyLim3_6_] : [INTEGER]) - [4]
+2019-10-28 21:28:46.957 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_6_] : [VARCHAR]) - [Haha@gmail.com]
+2019-10-28 21:28:46.957 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_6_] : [VARCHAR]) - [Voila]
+2019-10-28 21:28:46.957 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password6_6_] : [VARCHAR]) - [password]
+2019-10-28 21:28:46.957 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phoneNum7_6_] : [VARCHAR]) - [934i02343294]
+2019-10-28 21:28:46.958 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([rating8_6_] : [INTEGER]) - [-1]
+2019-10-28 21:28:46.958 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([status9_6_] : [VARCHAR]) - [Active]
+2019-10-28 21:28:46.958 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_6_] : [VARCHAR]) - [This is a test]
+2019-10-28 21:28:46.958 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_6_] : [INTEGER]) - [32]
+2019-10-28 21:28:46.958 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([consumer2_6_] : [VARCHAR]) - [Individual]
+2019-10-28 21:28:46.958 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([dailyLim3_6_] : [INTEGER]) - [4]
+2019-10-28 21:28:46.958 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_6_] : [VARCHAR]) - [Haha@gmail.com]
+2019-10-28 21:28:46.958 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_6_] : [VARCHAR]) - [Voila]
+2019-10-28 21:28:46.958 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password6_6_] : [VARCHAR]) - [password]
+2019-10-28 21:28:46.958 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phoneNum7_6_] : [VARCHAR]) - [934i02343294]
+2019-10-28 21:28:46.958 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([rating8_6_] : [INTEGER]) - [-1]
+2019-10-28 21:28:46.958 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([status9_6_] : [VARCHAR]) - [Active]
+2019-10-28 21:28:46.958 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_6_] : [VARCHAR]) - [This is a test]
+2019-10-28 21:28:46.958 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_6_] : [INTEGER]) - [33]
+2019-10-28 21:28:46.958 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([consumer2_6_] : [VARCHAR]) - [Individual]
+2019-10-28 21:28:46.958 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([dailyLim3_6_] : [INTEGER]) - [4]
+2019-10-28 21:28:46.958 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_6_] : [VARCHAR]) - [Haha@gmail.com]
+2019-10-28 21:28:46.958 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_6_] : [VARCHAR]) - [Voila]
+2019-10-28 21:28:46.958 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password6_6_] : [VARCHAR]) - [password]
+2019-10-28 21:28:46.958 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phoneNum7_6_] : [VARCHAR]) - [934i02343294]
+2019-10-28 21:28:46.958 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([rating8_6_] : [INTEGER]) - [-1]
+2019-10-28 21:28:46.958 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([status9_6_] : [VARCHAR]) - [Active]
+2019-10-28 21:28:46.958 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_6_] : [VARCHAR]) - [This is a test]
+2019-10-28 21:28:46.958 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_6_] : [INTEGER]) - [34]
+2019-10-28 21:28:46.959 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([consumer2_6_] : [VARCHAR]) - [Individual]
+2019-10-28 21:28:46.959 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([dailyLim3_6_] : [INTEGER]) - [4]
+2019-10-28 21:28:46.959 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_6_] : [VARCHAR]) - [Haha@gmail.com]
+2019-10-28 21:28:46.959 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_6_] : [VARCHAR]) - [Voila]
+2019-10-28 21:28:46.959 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password6_6_] : [VARCHAR]) - [password]
+2019-10-28 21:28:46.959 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phoneNum7_6_] : [VARCHAR]) - [934i02343294]
+2019-10-28 21:28:46.959 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([rating8_6_] : [INTEGER]) - [-1]
+2019-10-28 21:28:46.959 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([status9_6_] : [VARCHAR]) - [Active]
+2019-10-28 21:28:46.959 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_6_] : [VARCHAR]) - [This is a test]
+2019-10-28 21:28:46.959 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_6_] : [INTEGER]) - [35]
+2019-10-28 21:28:46.959 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([consumer2_6_] : [VARCHAR]) - [Individual]
+2019-10-28 21:28:46.959 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([dailyLim3_6_] : [INTEGER]) - [4]
+2019-10-28 21:28:46.959 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_6_] : [VARCHAR]) - [Haha@gmail.com]
+2019-10-28 21:28:46.959 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_6_] : [VARCHAR]) - [Voila]
+2019-10-28 21:28:46.959 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password6_6_] : [VARCHAR]) - [password]
+2019-10-28 21:28:46.959 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phoneNum7_6_] : [VARCHAR]) - [934i02343294]
+2019-10-28 21:28:46.959 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([rating8_6_] : [INTEGER]) - [-1]
+2019-10-28 21:28:46.959 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([status9_6_] : [VARCHAR]) - [Active]
+2019-10-28 21:28:46.959 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_6_] : [VARCHAR]) - [This is a test]
+2019-10-28 21:28:46.959 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_6_] : [INTEGER]) - [36]
+2019-10-28 21:28:46.959 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([consumer2_6_] : [VARCHAR]) - [Individual]
+2019-10-28 21:28:46.959 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([dailyLim3_6_] : [INTEGER]) - [4]
+2019-10-28 21:28:46.959 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_6_] : [VARCHAR]) - [Haha@gmail.com]
+2019-10-28 21:28:46.959 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_6_] : [VARCHAR]) - [Voila]
+2019-10-28 21:28:46.960 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password6_6_] : [VARCHAR]) - [password]
+2019-10-28 21:28:46.960 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phoneNum7_6_] : [VARCHAR]) - [934i02343294]
+2019-10-28 21:28:46.960 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([rating8_6_] : [INTEGER]) - [-1]
+2019-10-28 21:28:46.960 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([status9_6_] : [VARCHAR]) - [Active]
+2019-10-28 21:28:46.960 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_6_] : [VARCHAR]) - [This is a test]
+2019-10-28 21:28:46.960 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_6_] : [INTEGER]) - [37]
+2019-10-28 21:28:46.960 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([consumer2_6_] : [VARCHAR]) - [Individual]
+2019-10-28 21:28:46.960 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([dailyLim3_6_] : [INTEGER]) - [4]
+2019-10-28 21:28:46.960 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_6_] : [VARCHAR]) - [Haha@gmail.com]
+2019-10-28 21:28:46.960 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_6_] : [VARCHAR]) - [Voila]
+2019-10-28 21:28:46.960 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password6_6_] : [VARCHAR]) - [password]
+2019-10-28 21:28:46.960 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phoneNum7_6_] : [VARCHAR]) - [934i02343294]
+2019-10-28 21:28:46.960 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([rating8_6_] : [INTEGER]) - [-1]
+2019-10-28 21:28:46.960 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([status9_6_] : [VARCHAR]) - [Active]
+2019-10-28 21:28:46.960 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_6_] : [VARCHAR]) - [This is a test]
+2019-10-28 21:28:46.960 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_6_] : [INTEGER]) - [38]
+2019-10-28 21:28:46.960 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([consumer2_6_] : [VARCHAR]) - [Individual]
+2019-10-28 21:28:46.960 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([dailyLim3_6_] : [INTEGER]) - [4]
+2019-10-28 21:28:46.960 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_6_] : [VARCHAR]) - [Haha@gmail.com]
+2019-10-28 21:28:46.960 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_6_] : [VARCHAR]) - [Voila]
+2019-10-28 21:28:46.960 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password6_6_] : [VARCHAR]) - [password]
+2019-10-28 21:28:46.960 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phoneNum7_6_] : [VARCHAR]) - [934i02343294]
+2019-10-28 21:28:46.960 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([rating8_6_] : [INTEGER]) - [-1]
+2019-10-28 21:28:46.960 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([status9_6_] : [VARCHAR]) - [Active]
+2019-10-28 21:28:46.960 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_6_] : [VARCHAR]) - [This is a test]
+2019-10-28 21:28:46.961 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_6_] : [INTEGER]) - [39]
+2019-10-28 21:28:46.961 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([consumer2_6_] : [VARCHAR]) - [Individual]
+2019-10-28 21:28:46.961 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([dailyLim3_6_] : [INTEGER]) - [4]
+2019-10-28 21:28:46.961 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_6_] : [VARCHAR]) - [Haha@gmail.com]
+2019-10-28 21:28:46.961 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_6_] : [VARCHAR]) - [Voila]
+2019-10-28 21:28:46.961 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password6_6_] : [VARCHAR]) - [password]
+2019-10-28 21:28:46.961 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phoneNum7_6_] : [VARCHAR]) - [934i02343294]
+2019-10-28 21:28:46.961 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([rating8_6_] : [INTEGER]) - [-1]
+2019-10-28 21:28:46.961 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([status9_6_] : [VARCHAR]) - [Active]
+2019-10-28 21:28:46.961 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_6_] : [VARCHAR]) - [This is a test]
+2019-10-28 21:28:46.961 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_6_] : [INTEGER]) - [40]
+2019-10-28 21:28:46.961 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([consumer2_6_] : [VARCHAR]) - [Individual]
+2019-10-28 21:28:46.961 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([dailyLim3_6_] : [INTEGER]) - [4]
+2019-10-28 21:28:46.961 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_6_] : [VARCHAR]) - [Haha@gmail.com]
+2019-10-28 21:28:46.961 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_6_] : [VARCHAR]) - [Voila]
+2019-10-28 21:28:46.961 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password6_6_] : [VARCHAR]) - [password]
+2019-10-28 21:28:46.961 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phoneNum7_6_] : [VARCHAR]) - [934i02343294]
+2019-10-28 21:28:46.961 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([rating8_6_] : [INTEGER]) - [-1]
+2019-10-28 21:28:46.961 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([status9_6_] : [VARCHAR]) - [Active]
+2019-10-28 21:28:46.961 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_6_] : [VARCHAR]) - [This is a test]
+2019-10-28 21:28:46.961 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_6_] : [INTEGER]) - [41]
+2019-10-28 21:28:46.961 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([consumer2_6_] : [VARCHAR]) - [Individual]
+2019-10-28 21:28:46.962 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([dailyLim3_6_] : [INTEGER]) - [4]
+2019-10-28 21:28:46.962 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_6_] : [VARCHAR]) - [Haha@gmail.com]
+2019-10-28 21:28:46.962 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_6_] : [VARCHAR]) - [Voila]
+2019-10-28 21:28:46.962 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password6_6_] : [VARCHAR]) - [password]
+2019-10-28 21:28:46.962 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phoneNum7_6_] : [VARCHAR]) - [934i02343294]
+2019-10-28 21:28:46.962 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([rating8_6_] : [INTEGER]) - [-1]
+2019-10-28 21:28:46.962 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([status9_6_] : [VARCHAR]) - [Active]
+2019-10-28 21:28:46.962 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_6_] : [VARCHAR]) - [This is a test]
+2019-10-28 21:28:46.962 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_6_] : [INTEGER]) - [42]
+2019-10-28 21:28:46.962 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([consumer2_6_] : [VARCHAR]) - [Individual]
+2019-10-28 21:28:46.962 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([dailyLim3_6_] : [INTEGER]) - [4]
+2019-10-28 21:28:46.962 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_6_] : [VARCHAR]) - [Haha@gmail.com]
+2019-10-28 21:28:46.962 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_6_] : [VARCHAR]) - [Voila]
+2019-10-28 21:28:46.962 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password6_6_] : [VARCHAR]) - [password]
+2019-10-28 21:28:46.962 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phoneNum7_6_] : [VARCHAR]) - [934i02343294]
+2019-10-28 21:28:46.962 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([rating8_6_] : [INTEGER]) - [-1]
+2019-10-28 21:28:46.962 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([status9_6_] : [VARCHAR]) - [Active]
+2019-10-28 21:28:46.962 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_6_] : [VARCHAR]) - [This is a test]
+2019-10-28 21:28:46.962 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_6_] : [INTEGER]) - [43]
+2019-10-28 21:28:46.962 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([consumer2_6_] : [VARCHAR]) - [Individual]
+2019-10-28 21:28:46.962 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([dailyLim3_6_] : [INTEGER]) - [4]
+2019-10-28 21:28:46.962 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_6_] : [VARCHAR]) - [Haha@gmail.com]
+2019-10-28 21:28:46.962 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_6_] : [VARCHAR]) - [Voila]
+2019-10-28 21:28:46.962 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password6_6_] : [VARCHAR]) - [password]
+2019-10-28 21:28:46.963 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phoneNum7_6_] : [VARCHAR]) - [934i02343294]
+2019-10-28 21:28:46.963 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([rating8_6_] : [INTEGER]) - [-1]
+2019-10-28 21:28:46.963 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([status9_6_] : [VARCHAR]) - [Active]
+2019-10-28 21:28:46.963 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_6_] : [VARCHAR]) - [This is a test]
+2019-10-28 21:28:46.963 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_6_] : [INTEGER]) - [44]
+2019-10-28 21:28:46.963 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([consumer2_6_] : [VARCHAR]) - [Individual]
+2019-10-28 21:28:46.963 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([dailyLim3_6_] : [INTEGER]) - [4]
+2019-10-28 21:28:46.963 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_6_] : [VARCHAR]) - [Haha@gmail.com]
+2019-10-28 21:28:46.963 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_6_] : [VARCHAR]) - [Voila]
+2019-10-28 21:28:46.963 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password6_6_] : [VARCHAR]) - [password]
+2019-10-28 21:28:46.963 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phoneNum7_6_] : [VARCHAR]) - [934i02343294]
+2019-10-28 21:28:46.963 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([rating8_6_] : [INTEGER]) - [-1]
+2019-10-28 21:28:46.963 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([status9_6_] : [VARCHAR]) - [Active]
+2019-10-28 21:28:46.963 TRACE 59056 --- [nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_6_] : [VARCHAR]) - [This is a test]
+2019-10-28 21:29:44.456  INFO 59056 --- [       Thread-2] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2019-10-28 21:29:44.460  INFO 59056 --- [       Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-28 21:29:44.470 TRACE 59056 --- [       Thread-2] o.h.type.spi.TypeConfiguration$Scope     : Handling #sessionFactoryClosed from [org.hibernate.internal.SessionFactoryImpl@86733] for TypeConfiguration
+2019-10-28 21:29:44.470 DEBUG 59056 --- [       Thread-2] o.h.type.spi.TypeConfiguration$Scope     : Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@acf633d] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@86733]

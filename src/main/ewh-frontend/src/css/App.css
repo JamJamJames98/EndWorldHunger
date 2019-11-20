@@ -1,0 +1,202 @@
+.App {
+  text-align: center;
+}
+
+.main-container {
+  padding: 20px;
+}
+
+
+.Dashboard-table {
+  margin-top:50px;
+}
+
+.OrderDetails-contact {
+  display:inline-block;
+}
+
+.OrderDetails-order-details {
+  float:right;
+  text-align:right;
+}
+
+.OrderDetails-buttons {
+  margin:auto;
+}
+
+.provider-points {
+  display: inline;
+  margin-right: 30px;
+  font-size: 20px;
+}
+
+/*Search results*/
+.search-radio {
+  font-size: 16px;
+  padding-bottom: 10px;
+  margin-left:5px;
+}
+
+#searchbar {
+  width: 100%;
+}
+
+#searchbar-cog {
+  margin-left:10px;
+  margin-top:10px;
+}
+
+.popover {
+  width:300px;
+}
+
+.search-slider {
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.MuiSlider-colorPrimary {
+  color:#6c757d !important;
+}
+
+.adv-search-label {
+  margin-bottom:5px;
+}
+
+.search-multiselect {
+  padding-bottom:10px;
+}
+
+div > span {
+  color:#6c757d !important;
+}
+
+.DashboardAdmin-SearchBar {
+  display:inline-block;
+  float:right;
+}
+
+.AboutUs-content {
+  text-align:center;
+  margin-left:100px;
+  margin-right:100px;
+}
+
+.Register-Login-error {
+  color:red;
+  font-size:10px;
+}
+
+.leaderboard-buttongroup{
+  float: right;
+  display: inline;
+  margin-bottom: 20px;
+}
+
+.profile-image{
+  width:150px;
+  margin:auto;
+}
+
+.profile-contact{
+  display:inline;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.profile-activity-card{
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top:10px;
+  text-align: center;
+  width:60%;
+  border-radius: 20px;
+}
+
+.placeholder {
+  text-align: center;
+}
+
+.profile-rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sort-buttons {
+  padding:5px;
+  color: darkgrey;
+}
+
+a.sort-buttons:hover{
+  color: grey;
+}
+
+.search-autocomplete{
+  width: 100%;
+  margin-bottom: 0px;
+  padding: .375rem .75rem;
+  border-radius: .25rem;
+  border: 1px solid #ced4da;
+}
+
+.search-curloc-button {
+  padding-left:5px;
+  margin-bottom: 15px;
+}
+
+.badge-bronze{
+  background: #b66f29;
+}
+
+.badge-gold{
+  background: #e5b91a;
+}
+
+.badge-platinum{
+  background: lightgrey;
+}
+
+.badge-help{
+  margin-left: 5px;
+  color: #A5A5A5;
+}
+
+.badge-help:hover{
+  color: #6D6D6D;
+}
+
+.react-datepicker-wrapper, .react-datepicker__input-container {
+  display: block !important;
+}
+
+.request-datepicker{
+  width:100%;
+  border:1px solid #ced4da;
+  border-radius: .25rem;
+  padding: .375rem .75rem;
+}
+
+.home-button{
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.home-buttons{
+  text-align: center;
+}
+
+.quote-box{
+  text-align: center;
+  background: #B5b5b5;
+  color: white;
+  margin: -20px !important;
+}
+
+.quote{
+}
+
+.quote-author{
+  font-style: italic;
+}
